@@ -1,0 +1,199 @@
+.header {
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    border-bottom: solid 5px;
+    border-bottom-color: gray;
+}
+
+.name {
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 0%;
+    font-size: 30px;
+    width: 200px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.nav-buttons {
+    float: left;
+    width: 300px;
+    position: relative;
+    left: 450px;
+}
+
+#about {
+    float: left;
+    padding: 10px 25px 10px 5px;
+    border-right: solid 2px;
+    border-right-color: gray;
+}
+
+#portfolio {
+    float: left;
+    padding: 10px 25px 10px 20px;
+    border-right: solid 2px;
+    border-right-color: gray;
+}
+
+#contact {
+    float: left;
+    padding: 10px 0px 10px 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main {
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+    display: block;
+    margin: 0px;
+    width: 100%;
+    color: white;
+}
+
+.profile-picture {
+    width: auto;
+    height: auto;
+    max-width: 175px;
+    max-height: 175px;
+    float: left;
+    padding-top: 25px;
+    padding-right: 5px;
+}
+
+.footer {
+    text-align: center;
+    background-color: gray;
+    height: 60px;
+    line-height: 85px;
+    border-top: solid 5px;
+    border-top-color: #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-width {
+    width: 960px;
+    margin: auto;
+}
+
+.about-box {
+    background-color: white;
+    color: black;
+    padding: 5px 20px 20px 20px;
+    height: 435px;
+}
+
+.about-2 {
+    color: #4aaaa5;
+}
+
+.text-box {
+    border-top: solid 2px;
+    border-top-color: gray;
+    padding: 20px;
+}
+
+.container {
+    min-height: 100%;
+    margin-bottom: -75px;
+}
+
+@media only screen and (max-width: 980px) {
+    .about-box {
+        width: 75%;
+    }
+
+
+    .body {
+        width: 1000px;
+    }
+
+    .nav-buttons {
+        margin-left: -40px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+        .about-box {
+            width: 70%;
+        }
+    
+       
+
+        .name {
+            margin-left: 80px;
+        }
+
+
+        .nav-buttons {
+            left: 150px;
+        }
+
+
+}
+
+@media only screen and (max-width: 640px) {
+    .about-box {
+        width:56%;
+        height: auto;
+        margin-top: 150px;
+    }
+
+    .name {
+    width: 100%;
+    margin-left: 0px;
+    position: fixed;
+    }
+
+    .header {
+        border-bottom: solid 0px;
+        border-bottom-color: gray;
+        position: fixed;
+    }
+
+   .nav-buttons {
+       top: 70px;
+       background-color: lightgray;
+       width: 100%;
+       left: 0px;
+       position: relative;
+       top: 75px;
+       padding: 0px 0px 0px 175px;
+   }
+
+   .profile-picture {
+       min-height: 300px;
+       min-width: 300px;
+       padding-left: 100px;
+       padding-right: 100px;
+   }
+
+   .text-box-1 {
+       position: inherit;
+   }
+
+   
+
+
+
+
+}

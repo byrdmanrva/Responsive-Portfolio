@@ -1,0 +1,188 @@
+.header {
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    border-bottom: solid 5px;
+    border-bottom-color: gray;
+}
+
+.name {
+    float: left;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 0%;
+    width: 200px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.nav-buttons {
+    float: right;
+    width: 300px;
+}
+
+#about {
+    float: left;
+    padding: 10px 25px 10px 5px;
+    border-right: solid 2px;
+    border-right-color: gray;
+}
+
+#portfolio {
+    float: left;
+    padding: 10px 25px 10px 20px;
+    border-right: solid 2px;
+    border-right-color: gray;
+}
+
+#contact {
+    float: left;
+    padding: 10px 15px 10px 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main {
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+    min-height: 800px;
+}
+
+.body {
+    display: block;
+    margin: 0px;
+    width: 100%;
+    color: white;
+}
+
+.profile-picture {
+    width: auto;
+    height: auto;
+    max-width: 175px;
+    max-height: 175px;
+    float: left;
+    padding-top: 25px;
+    padding-right: 5px;
+}
+
+.footer {
+    text-align: center;
+    background-color: gray;
+    height: 60px;
+    line-height: 85px;
+    border-top: solid 5px;
+    border-top-color: #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+.header-width {
+    width: 960px;
+    margin: auto;
+}
+
+.about-box {
+    background-color: white;
+    color: black;
+    padding: 5px 20px 20px 20px;
+    min-height: 400px;
+    margin-bottom: 35px;
+}
+
+.about-2 {
+    color: #4aaaa5;
+    border-bottom: solid gray 2px;
+}
+
+
+.container {
+    min-height: 100%;
+    margin-bottom: -75px;
+}
+
+.input {
+    margin-top: 5px;
+    width: 914px;
+}
+
+.submit {
+    color: white;
+    background-color: #4aaaa5;
+    width: 75px;
+    height: 25px;
+    margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width: 980px) {
+    .name {
+        margin-left: 10px;
+    }
+
+    .about-box {
+        width: 60%;
+    }
+
+    .input {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-buttons {
+        float: left;
+        margin-left: 250px;
+    }
+
+    .about-box {
+        width: 72%;
+
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    
+    .about-box{
+        width: 59%;
+        margin-top: 80px;
+    }
+
+    .name {
+        width: 100%;
+        margin-left: 0px;
+        position: fixed;
+        }
+
+    .nav-buttons {
+        top: 70px;
+        background-color: lightgray;
+        width: 100%;
+        left: 0px;
+        position: relative;
+        top: 75px;
+        padding: 0px 0px 0px 300px;
+        margin-left: -125px;
+    }
+
+   
+
+}
+
+
+
+
+
+    
+
